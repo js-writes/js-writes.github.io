@@ -2,6 +2,32 @@
 # You don't need to edit this file, it's empty on purpose.
 # Edit theme's home layout instead if you wanna make some changes
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-layout: home
+layout: splash
 author_profile: true
+
+
+gallery:
+  - url: /blog/post-quote
+  #{% post_url 2010-03-07-post-link %}
+    image_path: assets/images/tony_williams-spring.jpg
+    title: "Image 1 title caption"
+  - url: /assets/images/unsplash-gallery-image-1.jpg
+    image_path: assets/images/tony_williams-spring.jpg
+    title: "Image 2 title caption"
+  - url: /assets/images/unsplash-gallery-image-1.jpg
+    image_path: assets/images/tony_williams-spring.jpg
+    title: "Image 2 title caption"
+gallery2:
+  - url: https://github.com
+    image_path: assets/images/tony_williams-spring.jpg
+    title: "Image 1 title caption"
+  - url: /assets/images/unsplash-gallery-image-1.jpg
+    image_path: assets/images/tony_williams-spring.jpg
+    title: "Image 2 title caption"
+  - url: /assets/images/unsplash-gallery-image-1.jpg
+    image_path: assets/images/tony_williams-spring.jpg
+    title: "Image 2 title caption"
 ---
+{% include gallery %}
+{% include gallery id="gallery2"%}
+
